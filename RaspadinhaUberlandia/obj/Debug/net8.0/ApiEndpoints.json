@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "LoginEmpresa",
+    "RelativePath": "api/User/loginEmpresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "EmpresaAcesso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/loginUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "UsuarioAcesso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "RecoverPassword",
+    "RelativePath": "api/User/recuperarSenha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recoveryDto",
+        "Type": "RecuperarSenha",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "Empresa",
+    "RelativePath": "api/User/registrarEmpresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegistrationEmp",
+        "Type": "RaspadinhaDigital.API.Models.RegistroEmpresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "Cadastro",
+    "RelativePath": "api/User/registrarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegistration",
+        "Type": "RaspadinhaDigital.API.Models.RegistroUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

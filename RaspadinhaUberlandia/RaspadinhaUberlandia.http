@@ -1,0 +1,6 @@
+@RaspadinhaUberlandia_HostAddress = http://localhost:5270
+
+GET {{RaspadinhaUberlandia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

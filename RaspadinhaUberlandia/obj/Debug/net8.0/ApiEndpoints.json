@@ -1,6 +1,70 @@
 [
   {
     "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "AtualizarEmpresa",
+    "RelativePath": "api/User/atualizarEmpresa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atualizarEmpresa",
+        "Type": "RaspadinhaUberlandia.Entidades.AtualizarEmpresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "AtualizarUsuario",
+    "RelativePath": "api/User/atualizarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atualizarUsuario",
+        "Type": "RaspadinhaUberlandia.Entidades.AtualizarUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "ConfirmarExclusaoEmpresa",
+    "RelativePath": "api/User/confirmarExclusaoEmpresa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ConfirmarExclusaoEmpresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "ConfirmarExclusaoUsuario",
+    "RelativePath": "api/User/confirmarExclusaoUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ConfirmarExclusaoUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
     "Method": "LoginEmpresa",
     "RelativePath": "api/User/loginEmpresa",
     "HttpMethod": "POST",
@@ -33,15 +97,31 @@
   },
   {
     "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
-    "Method": "RecoverPassword",
-    "RelativePath": "api/User/recuperarSenha",
+    "Method": "RecoverPasswordEmpresa",
+    "RelativePath": "api/User/recuperarSenhaEmpresa",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "recoveryDto",
-        "Type": "RecuperarSenha",
+        "Name": "recoveryDtoEmpresa",
+        "Type": "RecuperarSenhaEmpresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "RecoverPasswordUsuario",
+    "RelativePath": "api/User/recuperarSenhaUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recoveryDtoUsuario",
+        "Type": "RecuperarSenhaUsuario",
         "IsRequired": true
       }
     ],
@@ -57,7 +137,7 @@
     "Parameters": [
       {
         "Name": "userRegistrationEmp",
-        "Type": "RaspadinhaDigital.API.Models.RegistroEmpresa",
+        "Type": "RaspadinhaUberlandia.Entidades.CadtAcess.RegistroEmpresa",
         "IsRequired": true
       }
     ],
@@ -73,7 +153,39 @@
     "Parameters": [
       {
         "Name": "userRegistration",
-        "Type": "RaspadinhaDigital.API.Models.RegistroUsuario",
+        "Type": "RaspadinhaUberlandia.Entidades.CadtAcess.RegistroUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "SolicitarExclusaoEmpresa",
+    "RelativePath": "api/User/solicitarExclusaoEmpresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ExcluirEmpresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaspadinhaDigital.API.Controllers.UserController",
+    "Method": "SolicitarExclusaoUsuario",
+    "RelativePath": "api/User/solicitarExclusaoUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ExcluirUsuario",
         "IsRequired": true
       }
     ],

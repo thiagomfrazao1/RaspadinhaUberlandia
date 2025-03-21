@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RaspadinhaUberlandia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+176c44da4054982e6e3ba818edcfd249021e01ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("RaspadinhaUberlandia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RaspadinhaUberlandia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

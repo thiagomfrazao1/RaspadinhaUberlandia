@@ -170,3 +170,4 @@ C:\Users\Thiago\Desktop\Nova pasta\RaspadinhaUberlandia\RaspadinhaUberlandia\obj
 C:\Users\Thiago\Desktop\Nova pasta\RaspadinhaUberlandia\RaspadinhaUberlandia\obj\Debug\net8.0\RaspadinhaUberlandia.pdb
 C:\Users\Thiago\Desktop\Nova pasta\RaspadinhaUberlandia\RaspadinhaUberlandia\obj\Debug\net8.0\RaspadinhaUberlandia.genruntimeconfig.cache
 C:\Users\Thiago\Desktop\Nova pasta\RaspadinhaUberlandia\RaspadinhaUberlandia\obj\Debug\net8.0\ref\RaspadinhaUberlandia.dll
+C:\Users\Thiago\Desktop\Nova pasta\RaspadinhaUberlandia\RaspadinhaUberlandia\obj\Debug\net8.0\RaspadinhaUberlandia.sourcelink.json

@@ -5153,9 +5153,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thiago\\Desktop\\Nova pasta\\RaspadinhaUberlandia\\RaspadinhaUberlandia\\RaspadinhaUberlandia.csproj",
-      "projectName": "RaspadinhaUberlandia",
-      "projectPath": "C:\\Users\\Thiago\\Desktop\\Nova pasta\\RaspadinhaUberlandia\\RaspadinhaUberlandia\\RaspadinhaUberlandia.csproj",
+      "projectUniqueName": "C:\\Users\\Thiago\\Desktop\\Nova pasta\\RaspadinhaUberlandia\\RaspadinhaUberlandia\\RaspadinhaUberlandiaLogin.csproj",
+      "projectName": "RaspadinhaUberlandiaLogin",
+      "projectPath": "C:\\Users\\Thiago\\Desktop\\Nova pasta\\RaspadinhaUberlandia\\RaspadinhaUberlandia\\RaspadinhaUberlandiaLogin.csproj",
       "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Thiago\\Desktop\\Nova pasta\\RaspadinhaUberlandia\\RaspadinhaUberlandia\\obj\\",
       "projectStyle": "PackageReference",

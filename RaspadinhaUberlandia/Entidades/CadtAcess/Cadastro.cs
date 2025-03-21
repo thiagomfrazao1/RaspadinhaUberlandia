@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using RaspadinhaUberlandia.ITarefas;
 
-namespace RaspadinhaDigital.API.Models
+namespace RaspadinhaUberlandia.Entidades.CadtAcess
 {
     public class RegistroUsuario : IRegistroUsuario
     {
@@ -45,14 +45,42 @@ public class EmpresaAcesso : IEmpresaAcesso
     public string Senha { get; set; }
 }
 
-public class RecuperarSenha : IRecuperarSenha
+public class RecuperarSenhaUsuario : IRecuperarSenhaUsuario
 {
     public int Cpf { get; set; }
     public string Email { get; set; }
 }
 
-public class Resultado
-    {
-        public bool IsSuccess { get; set; }
-        public string ErrorMessage { get; set; }
-    }
+public class RecuperarSenhaEmpresa : IRecuperarSenhaEmpresa
+{
+    public int CNPJ { get; set; }
+    public string Email { get; set; }
+}
+
+// Modelo para solicitação de exclusão do usuário
+public class ExcluirUsuario : IExcluirUsuario
+{
+    public string Cpf { get; set; }
+    public string Telefone { get; set; }
+}
+
+// Modelo para confirmação de exclusão do usuário
+public class ConfirmarExclusaoUsuario : IConfirmarExclusaoUsuario
+{
+    public string Cpf { get; set; }
+    public string CodigoConfirmacao { get; set; }
+}
+
+// Modelo para solicitação de exclusão da empresa
+public class ExcluirEmpresa : IExcluirEmpresa
+{
+    public string Cnpj { get; set; }
+    public string Telefone { get; set; }
+}
+
+// Modelo para confirmação de exclusão da empresa
+public class ConfirmarExclusaoEmpresa : IConfirmarExclusaoEmpresa
+{
+    public string Cnpj { get; set; }
+    public string CodigoConfirmacao { get; set; }
+}
